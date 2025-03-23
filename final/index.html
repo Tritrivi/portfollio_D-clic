@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur Web - AKPO KWAMI TRIOMPHE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En-tête avec navigation -->
+    <header>
+        <div class="logo">
+            <a href="#accueil">AKPO <span class="accent">KWAMI TRIOMPHE</span></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Je suis <span class="accent">Triomphe</span>, Développeur en devenir passionné par le web et le design !</h1>
+                <a href="#projets" class="btn">Voir mes projets</a>
+            </div>
+            <div class="hero-image">
+                <img src="../1.jpg" alt="Illustration de développement web">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="a-propos" class="about">
+        <h2 class="section-title">À propos</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Je m'appelle <span class="accent">AKPO K. Triomphe</span>, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement bénéficiaire du D-CLIC en <span class="accent">développement web</span>, et je cherche à acquerir et à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                <a href="../CV de Kwami Triomphe AKPO.pdf" class="btn">Télécharger mon CV</a>
+            </div>
+            <div class="about-image">
+                <img src="../profil.jpg" alt="Ma photo de profil">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-grid">
+            <!-- Projet 1 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</h3>
+                    <p class="tags">#html #css #js</p>
+                    <a href="#" class="btn">Voir</a>
+                </div>
+            </div>
+            <!-- Projet 2 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</h3>
+                    <p class="tags">#html #css #js</p>
+                    <a href="#" class="btn">Voir</a>
+                </div>
+            </div>
+            <!-- Projet 3 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</h3>
+                    <p class="tags">#html #css #js</p>
+                    <a href="#" class="btn">Voir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="skills-container">
+            <!-- Soft Skills -->
+            <div class="skills-column">
+                <h3>Soft Skills</h3>
+                <div class="skill">
+                    <span>Gestion de projet</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Résolution de problème</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Adaptabilité</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Créativité</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hard Skills -->
+            <div class="skills-column">
+                <h3>Hard Skills</h3>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>VS Code</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2 class="contact-title">Vous avez un <span class="accent">projet en tête</span> ?</h2>
+        <p class="contact-subtitle">N'hésitez pas à me <span class="accent">contacter</span></p>
+        
+        <form id="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" id="sujet" name="sujet" placeholder="Votre sujet" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" rows="6" placeholder="Votre message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>Designed by <span class="accent">A.K.Triomphe</span> with HTML, CSS, JS</p>
+        <p>Tous droits réservés - 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
